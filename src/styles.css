@@ -1,0 +1,72 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom Settings */
+
+.list-menu
+{
+    @apply items-center uppercase tracking-wider font-semibold;
+}
+
+.list-menu-item
+{
+    @apply mr-8 border-b-4 border-transparent pb-1;
+}
+
+.list-menu-item:hover
+{
+    @apply border-blue-500;
+}
+
+.active-menu
+{
+    @apply border-blue-500;
+}
+
+/*  */
+
+.menu-sm
+{
+    @apply items-center uppercase tracking-wider font-semibold;
+}
+
+.menu-item-sm
+{
+    @apply mr-8 border-l-4 border-transparent pb-1;
+}
+
+.menu-item-sm:hover
+{
+    @apply border-blue-500;
+}
+
+.active-sm
+{
+    @apply border-blue-500;
+}
+
+/*  */
+
+.list-menu-active
+{
+    @apply border-b-4 border-blue-500;
+}
+
+.card 
+{
+    @apply rounded-lg overflow-hidden transform transition ease-out duration-500;
+}
+
+.card:hover
+{
+    @apply scale-105;
+}
+
+.card-badge
+{
+    @apply text-black mt-3 border-t-2 border-gray-900 border-opacity-25 flex;
+}
+
